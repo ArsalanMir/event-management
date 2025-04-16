@@ -1,5 +1,5 @@
 import React from 'react';
-import seedball from '../assets/seedball.png';
+// import seedball from '../assets/seedball.png';
 import SeedballReview from '../components/SeedballReview';
 
 const SeedballSection = () => {
@@ -12,7 +12,7 @@ const SeedballSection = () => {
         {/* Image and Button */}
         <div className="text-center">
           <img
-            src={seedball}
+            src=""
             alt="Seed Ball"
             className="w-full max-w-md mx-auto rounded-lg shadow-lg"
           />
