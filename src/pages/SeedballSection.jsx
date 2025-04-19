@@ -1,6 +1,6 @@
 import React from 'react';
-// import seedball from '../assets/seedball.png';
 import SeedballReview from '../components/SeedballReview';
+import img24 from '../assets/360.webp'
 
 const SeedballSection = () => {
   return (
@@ -12,7 +12,7 @@ const SeedballSection = () => {
         {/* Image and Button */}
         <div className="text-center">
           <img
-            src=""
+            src={img24}
             alt="Seed Ball"
             className="w-full max-w-md mx-auto rounded-lg shadow-lg"
           />

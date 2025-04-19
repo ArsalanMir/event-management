@@ -1,15 +1,15 @@
-// src/pages/Lunch.jsx
 import React from 'react';
 import rasam from '../assets/Rasam.jpg'
 import biryani from '../assets/veg-biryani.jpg'
 import onion from '../assets/onion-raitha.png'
+import jangiri from '../assets/jangiri.jpg';
 
 
 const lunchItems = [
   { name: "Rasam", description: "Traditional thali with rice, curry, and sides", image: rasam },
   { name: "Veg-Biryani", description: "Spiced rice with chicken", image: biryani },
   { name: "onion-Raitha", description: "Creamy paneer curry", image: onion },
-  { name: "Mini-jangiri", description: "South Indian style fish curry", image: ""},
+  { name: "Mini-jangiri", description: "South Indian style fish curry", image: jangiri},
 ];
 
 const Lunch = () => {
